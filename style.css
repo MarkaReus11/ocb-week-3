@@ -1,0 +1,159 @@
+html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #F6F4F0;
+    font-family: inter;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    width: auto;
+    height: 96px;
+    margin: 24px;
+    padding: 20px 24px 20px 24px;
+    border-radius: 20px;
+    background-color: #2A2C2E;
+
+    text-align: start;
+    text-justify: center;
+}
+
+.logo {
+    width: 166px;
+    height: 40px;
+}
+
+main {
+    width: auto;
+    height: 1110px;
+    border-radius: 20px;
+    background-color: #2A2C2E;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+p {
+    padding-top: 32px;
+    padding-left: 64px;
+    font-size: 24px;
+}
+
+form {
+    width: 711px;
+    padding-left: 40px;
+}
+
+fieldset {
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+legend {
+    font-size: 20px;
+}
+
+input {
+    width: 70%;
+    height: 56px;
+    border-radius: 16px;
+    padding-left: 16px;
+    background-color: #FFFFFF;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#radio {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 76px;
+    width: 70%;
+    height: 56px;
+}
+
+#radio input{
+    width: 10px;
+    height: 10px;
+}
+
+#agreement {
+    width: 22px;
+    height: 22px;
+}
+
+button {
+    width: 709px;
+    height: 56px;
+    border-radius: 16px;
+    padding: 16px 28px 16px 28px;
+    margin-top: 20px;
+    background-color: #F4CE47;
+    font-weight: 500;
+    color: #000000DE;
+}
+
+#up {
+    width: auto;
+    height: 88px;
+    background: #2A2C2E;
+    padding: 0px 24px 0px 24px; 
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-media {
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+#down {
+    width: auto;
+    height:40px;
+    line-height: 16px;
+    background: #000000DE;
+    color: #FFFFFF;
+    padding: 12px 24px 12px 24px; 
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.privacy {
+    font-size: 12px;
+    line-height: 16px;
+    
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.contact {
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
